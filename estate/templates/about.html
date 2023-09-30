@@ -321,7 +321,6 @@
         <link rel="alternate" type="application/json+oembed" href="https://www.philipjames.co.uk/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.philipjames.co.uk%2Fabout-us%2F"/>
         <link rel="alternate" type="text/xml+oembed" href="https://www.philipjames.co.uk/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.philipjames.co.uk%2Fabout-us%2F&#038;format=xml"/>
         <!-- Google tag (gtag.js) -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-6V7XY8046Q"></script>
         <script>
             window.dataLayer = window.dataLayer || [];
             function gtag() {
@@ -643,7 +642,7 @@
                             <!-- Logo -->
                             <div id="logo" class="flex-col logo">
                                 <!-- Header logo -->
-                                <a href="https://www.philipjames.co.uk/" title="Golden Gates - Homepage" rel="home">
+                                <a href="{% url "index" %}" title="Golden Gates - Homepage" rel="home">
                                     <img width="130" height="130" src="{% static "images/ggg.jpeg" %}" class="header_logo header-logo" alt="Golden Gates"/>
                                     <img width="130" height="130" src="https://www.philipjames.co.uk/wp-content/uploads/2023/02/pjlogo.png" class="header-logo-dark" alt="Golden Gates"/>
                                 </a>
@@ -845,7 +844,7 @@
                                                 <div class="oxi-image-hover oxi-image-square-hover oxi-image-square-hover-style-2 oxi-image-square-hover-1-2">
                                                     <div class="oxi-image-hover-figure bottom_to_top">
                                                         <div class="oxi-image-hover-image">
-                                                            <img src="{% static "images/staff1.jpg" %}">
+                                                            <img src="{% static "images/staff1.png" %}">
                                                         </div>
                                                         <div class="oxi-image-hover-figure-caption">
                                                             <div class="oxi-image-hover-caption-tab">
@@ -1020,7 +1019,6 @@
                                                     <input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f139242156-o1"/>
                                                     <input type="hidden" name="_wpcf7_container_post" value="0"/>
                                                     <input type="hidden" name="_wpcf7_posted_data_hash" value=""/>
-                                                    <input type="hidden" name="_wpcf7_recaptcha_response" value=""/>
                                                 </div>
                                                 <div class="row">
                                                     <div class="col large-12 small-12">
@@ -1164,7 +1162,6 @@
                 <input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f139242570-o2"/>
                 <input type="hidden" name="_wpcf7_container_post" value="0"/>
                 <input type="hidden" name="_wpcf7_posted_data_hash" value=""/>
-                <input type="hidden" name="_wpcf7_recaptcha_response" value=""/>
             </div>
             <div class="row">
                 <div class="col large-12 small-12">
@@ -1332,7 +1329,6 @@
                 <input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f139242572-o3"/>
                 <input type="hidden" name="_wpcf7_container_post" value="0"/>
                 <input type="hidden" name="_wpcf7_posted_data_hash" value=""/>
-                <input type="hidden" name="_wpcf7_recaptcha_response" value=""/>
             </div>
             <div class="row">
                 <div class="col large-12 small-12">
@@ -1450,7 +1446,6 @@
                 <input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f139242573-o4"/>
                 <input type="hidden" name="_wpcf7_container_post" value="0"/>
                 <input type="hidden" name="_wpcf7_posted_data_hash" value=""/>
-                <input type="hidden" name="_wpcf7_recaptcha_response" value=""/>
             </div>
             <div class="row">
                 <div class="col large-12 small-12">
@@ -1513,7 +1508,6 @@
                 <input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f139242574-o5"/>
                 <input type="hidden" name="_wpcf7_container_post" value="0"/>
                 <input type="hidden" name="_wpcf7_posted_data_hash" value=""/>
-                <input type="hidden" name="_wpcf7_recaptcha_response" value=""/>
             </div>
             <div class="row">
                 <div class="col large-12 small-12">
@@ -1572,7 +1566,6 @@
                 <input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f139242575-o6"/>
                 <input type="hidden" name="_wpcf7_container_post" value="0"/>
                 <input type="hidden" name="_wpcf7_posted_data_hash" value=""/>
-                <input type="hidden" name="_wpcf7_recaptcha_response" value=""/>
             </div>
             <div class="row">
                 <div class="col large-12 small-12">
@@ -2115,7 +2108,6 @@
         </ul>
     </div>
 </div>
-<script type='text/javascript' src='https://maps.googleapis.com/maps/api/js?v=quarterly&#038;libraries=places,geometry&#038;region=GB&#038;key=AIzaSyCpAP5QLD76hMiB6pWF0RPKWKXfERQlQe0&#038;ver=5.8.6' id='maps-js'></script>
 <script type="text/javascript" src="/wp-content/uploads/js/functions.js"></script>
 <link rel='stylesheet' id='oxi-animation-css' href='https://www.philipjames.co.uk/wp-content/plugins/image-hover-effects-ultimate/assets/frontend/css/animation.css?ver=9.8.5' type='text/css' media='all'/>
 <link rel='stylesheet' id='oxi-image-hover-css' href='https://www.philipjames.co.uk/wp-content/plugins/image-hover-effects-ultimate/assets/frontend/css/style.css?ver=9.8.5' type='text/css' media='all'/>
@@ -3134,22 +3126,11 @@
     }());
 </script>
 <script type='text/javascript' src='https://www.philipjames.co.uk/wp-content/themes/flatsome/inc/extensions/flatsome-live-search/flatsome-live-search.js?ver=3.16.2' id='flatsome-live-search-js'></script>
-<script type='text/javascript' src='https://www.google.com/recaptcha/api.js?render=6LeYbRclAAAAAFDha8JcX62ITVkCO7tETpdJyrV_&#038;ver=3.0' id='google-recaptcha-js'></script>
 <script type='text/javascript' src='https://www.philipjames.co.uk/wp-includes/js/dist/vendor/wp-polyfill-inert.min.js?ver=3.1.2' id='wp-polyfill-inert-js'></script>
 <script type='text/javascript' src='https://www.philipjames.co.uk/wp-includes/js/dist/vendor/regenerator-runtime.min.js?ver=0.13.11' id='regenerator-runtime-js'></script>
 <script type='text/javascript' src='https://www.philipjames.co.uk/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=3.15.0' id='wp-polyfill-js'></script>
-<script type='text/javascript' id='wpcf7-recaptcha-js-extra'>
-    /* <![CDATA[ */
-    var wpcf7_recaptcha = {
-        "sitekey": "6LeYbRclAAAAAFDha8JcX62ITVkCO7tETpdJyrV_",
-        "actions": {
-            "homepage": "homepage",
-            "contactform": "contactform"
-        }
-    };
-    /* ]]> */
+   
 </script>
-<script type='text/javascript' src='https://www.philipjames.co.uk/wp-content/plugins/contact-form-7/modules/recaptcha/index.js?ver=5.7.5.1' id='wpcf7-recaptcha-js'></script>
 <script type='text/javascript' src='https://www.philipjames.co.uk/wp-includes/js/hoverIntent.min.js?ver=1.10.2' id='hoverIntent-js'></script>
 <script type='text/javascript' id='flatsome-js-js-extra'>
     /* <![CDATA[ */
